@@ -1,29 +1,30 @@
 .container {
     background-color: pink;
-   display: flex;
-    
+    display: flex;
+
 }
-.start{
+
+.start {
     justify-content: flex-start;
 }
 
-.end{
+.end {
     justify-content: flex-end;
 }
 
-.center{
+.center {
     justify-content: center;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.space-around{
+.space-around {
     justify-content: space-around;
 }
 
-.nome{
+.nome {
     justify-content: space-evenly;
 }
 
@@ -33,39 +34,42 @@
     /* padding: 15px 20px; */
     width: 50px;
     height: 50px;
-    margin: 5px; 
+    margin: 5px;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
-.azul-claro{
+.azul-claro {
     background-color: #63b1bc;
 }
 
-.azul-escuro{
+.azul-escuro {
     background-color: #1f2a44;
     color: white;
 }
 
-.rosa{
+.rosa {
     background-color: #ed145b;
 }
 
-.amarelo{
+.amarelo {
     background-color: #efb661;
 }
 
-.container-desafio{
-    background-color: grey;
-    
-}
-
-.container-exercicioB{
+.container-desafio {
     background-color: grey;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
 
+.container-exercicioB {
+    background-color: grey;
+    display: flex;
+    justify-content: start;
+    flex-direction: column-reverse;
 }
